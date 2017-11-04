@@ -1,0 +1,15 @@
+UI development
+
+GitHub commands
+
+$chmod -R 777 <directoryname> --> gives read or write permissions to directory 
+$git clone <url> --> to clone/download the forked repository into our machine
+$git status --> shows the status of the working directory
+to create an information about git use the command below
+$git init
+$git remote add origin <url> --> add the repository remotely, origin(default repository name, can give ur alias name to                                                   the repository)
+to create a sync between origin and local repositories,
+$git commit -m "initial commit of README.md" -->(-m message
+
+$git add README.md
+$git status
