@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--this is the title for this html document-->
+        <title>Head elements</title>
+
+        <!-- used for styling the html pages-->
+        <style></style>
+
+        <!-- explains the java script code-->
+        <script></script>
+
+       <!-- link gives the url to the external files and images-->
+        <link />
+
+        <!--base url is the html file that should be rendered first when a server is loaded-->
+        <base />
+
+        <!-- describes the details about html this page-->
+        <meta name="description" content="This page gives the details about head elements and tags">
+        <meta name="keywords" content="heading,title,content,meta data,charset,style,scripting">
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+
+    <!--main article for forms-->
+    <article>
+
+        <!--page header-->
+        <header>
+            <h1>Employee Form page!</h1>
+        </header>
+
+        <!--main body of the page-->
+        <section>
+
+            <!--form -->
+            <form name="Employee">
+                <!--First Name-->
+                <div>
+                    <label for="empName">Employee's Full Name:</label>
+                    <input type="text" id="empName" name="fName" placeholder="Enter your Full Name"/>
+                </div>
+                <br />
+
+                <!--Phone Number-->
+                <div>
+                    <label for="phoneNumber">Applicant's Phone Number:</label>
+                    <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter your Phone Number" />
+                </div>
+                <br />
+
+                <!--Email Id-->
+                <div>
+                    <label for="emailId">Email Id:</label>
+                    <input type="text" id="emailId" name="emailId" placeholder="Enter your email Id"/>
+                </div>
+                <br />
+
+                <!--Password-->
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password"/>
+                </div>
+                <br />
+
+                <!--Gender-->
+                <div>
+                    <label for="gender">Applicant's Gender:</label>
+                    <div id="gender">
+                        <!--male-->
+                        <label for="male">Male:</label>
+                        <input type="radio" id="male" name="gender" value="Male"/>
+
+                        <!--female-->
+                        <label for="female">Female:</label>
+                        <input type="radio" id="female" name="gender" value="Female"/>
+                    </div>
+                </div>
+                <br />
+
+                <!--current employee-->
+                <div>
+                    <label for="currentEmp">Are you currently Employed?</label>
+                    <input type="checkbox" id="currentEmp" name="currentEmp" />
+                </div>
+
+                <!--submit button-->
+                <button type="submit" id="submit">
+                    <span>Submit</span>
+                </button>
+
+                <!--reset/cancel-->
+                <button type="reset" id="reset">
+                    <span>Cancel</span>
+                </button>
+            </form>
+        </section>
+
+        <!--footer of the page-->
+        <footer>
+            I'm at the bottom
+        </footer>
+    </article>
+
+    </body>
+</html>
