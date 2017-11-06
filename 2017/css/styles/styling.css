@@ -1,0 +1,17 @@
+body{
+background-color:#9dedd5;
+}
+form{
+border:2px solid #482fbd;
+}
+input,label{
+display:block;
+}
+#submit{
+background-color:#0ba96d;
+color:#fff;
+}
+#reset{
+background-color:#fa0c28;
+color:#fff;
+}

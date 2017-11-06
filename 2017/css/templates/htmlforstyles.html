@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+    <head>
+
+        <title>css styles</title>
+
+
+       <!-- link gives the url to the external files and images-->
+        <link rel="stylesheet" href="../styles/styling.css"/>
+
+    </head>
+
+    <body>
+
+    <!--main article for forms-->
+    <article>
+
+        <!--page header-->
+        <header>
+            <h1>Learning styles for a html page!</h1>
+        </header>
+
+        <!--main body of the page-->
+        <section>
+
+            <!--form -->
+            <form name="Employee">
+                <!--First Name-->
+
+                    <label for="empName">Employee's Full Name:</label>
+                    <input type="text" id="empName" name="fName" placeholder="Enter your Full Name"/>
+
+
+
+                <!--Phone Number-->
+
+                    <label for="phoneNumber">Applicant's Phone Number:</label>
+                    <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter your Phone Number" />
+
+
+                <!--Email Id-->
+
+                    <label for="emailId">Email Id:</label>
+                    <input type="text" id="emailId" name="emailId" placeholder="Enter your email Id"/>
+
+
+                <!--Password-->
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password"/>
+
+
+                <!--Gender-->
+
+                    <label for="gender">Applicant's Gender:</label>
+                    <div id="gender">
+                        <!--male-->
+                        Male:<input type="radio" id="male" name="gender" value="Male"/>
+
+                        <!--female-->
+                        Female:<input type="radio" id="female" name="gender" value="Female"/>
+                    </div>
+
+
+                <!--current employee-->
+
+                    <label for="currentEmp">Are you currently Employed?</label>
+                    <input type="checkbox" id="currentEmp" name="currentEmp" />
+
+
+                <!--submit button-->
+                <button type="submit" id="submit">
+                    <span>Submit</span>
+                </button>
+
+                <!--reset/cancel-->
+                <button type="reset" id="reset">
+                    <span>Cancel</span>
+                </button>
+            </form>
+        </section>
+
+        <!--footer of the page-->
+        <footer>
+            I'm at the bottom
+        </footer>
+    </article>
+
+    </body>
+</html>
