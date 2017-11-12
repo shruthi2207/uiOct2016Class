@@ -4,14 +4,16 @@ background-color:#9dedd5;
 form{
 border:2px solid #482fbd;
 }
-input,label{
+label{
 display:block;
 }
 #submit{
 background-color:#0ba96d;
 color:#fff;
+border:2px solid black;
 }
 #reset{
 background-color:#fa0c28;
 color:#fff;
+border:2px solid black;
 }
