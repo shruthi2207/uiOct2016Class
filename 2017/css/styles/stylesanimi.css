@@ -1,13 +1,8 @@
-header{
-    position:fixed;
-    width:100%;
-    top:0px;
-    left:0px;
-}
 
 body{
     background-image:url(524653165.jpg);
-    background-size:1000px;
+    background-size:100%;
+
 }
 
 ul{
@@ -35,6 +30,7 @@ li a{
 li:hover{
     color:#f00;
 }
+
 
 a:hover{
     color:#0f0;
@@ -104,21 +100,13 @@ footer{
     bottom:0px;
     left:0px;
 }
-div > label:hover{
-    color: #72e491;
-    transition: all 0.3s linear;
+
+#transition
+{
+    width:100%;
 }
 
-div + p{
-    color: #f00;
-    font-weight:bold;
-}
-
-div ~ p{
-    font-family:arial;
-    font-style:oblique;
-}
-
-div > p:hover{
-    font-size:50px;
+#transition:hover
+{
+    width:150%;
 }

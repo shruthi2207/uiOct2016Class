@@ -1,0 +1,46 @@
+#transform:hover{
+    /*-webkit-transform:translate(20px 0);
+    -moz-transform:translate(20px 0);
+    -o-transform:translate(20px 0);
+    -ms-transform:translate(20px 0);*/
+
+    -webkit-transform:scale(2);
+    -moz-transform:scale(2);
+    -o-transform:scale(2);
+    -ms-transform:scale(2);
+}
+
+#translate:hover{
+    -webkit-transform: rotateZ(50deg);
+    transform: rotateZ(50deg);
+
+}
+
+#transition{
+    -webkit-transition: width 3s;
+    transition: width 3s;
+    transition-delay:1s;
+}
+
+@keyframes animi{
+    0%{
+       color: red;
+    }
+    25%{
+        color: yellow;
+    }
+    50%{
+        color: blue;
+    }
+    75%{
+        color: cyan;
+     }
+    100%{
+        color: green;
+    }
+}
+
+#keyframes1{
+    -webkit-animation: animi 3s 3;
+
+}

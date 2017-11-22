@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Animations Demo</title>
+        <link rel="stylesheet" href="../styles/stylesanimi.css"/>
+        <link rel="stylesheet" href="../styles/animations.css"/>
+
+    </head>
+    <body>
+        <article>
+            <header id="main-heading">
+                <h1>Learning animations for a html page!</h1>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="https://www.google.com/maps">Home</a>
+                        </li>
+                        <li>
+                            <a href="https://www.google.com/mail">Content</a>
+                        </li>
+                        <li>
+                            <a href="https://www.google.com/images">Courses</a>
+                        </li>
+                        <li>
+                            <a href="https://www.google.com/shopping">Workspace</a>
+                        </li>
+                    </ul>
+
+                </nav>
+            </header>
+            <section>
+                <center>
+                    <form name="Demo">
+
+
+                        <div>
+                            <label for="animation">Animation Type:</label>
+                            <input type="text" id="animation" name="fName" placeholder="Enter the type"/>
+                        </div>
+
+
+                        <!--types of animations-->
+                        <div>
+                            <label for="animation">Aniation Type:</label>
+                            <div>
+                                <!--2D-->
+                                <label id="transform">2D-transform:</label>
+                                <input type="radio" id="transform1" name="animi-type" value="transform"/>
+                                <br />
+
+                                <!--3D translate-->
+                                <label id="translate">3D-translate:</label>
+                                <input type="radio" id="translate1" name="animi-type" value="translate"/>
+                                <br />
+
+                                <!--3D transitions-->
+                                <label id="transition">Transitions:</label>
+                                <input type="radio" id="transition1" name="animi-type" value="transition"/>
+                                <br />
+
+                                <!--using keyframes-->
+                                <label id="keyframes1">Keyframes:</label>
+                                <input type="radio" id="keyframes" name="animi-type" value="keyframes"/>
+                                <br />
+                            </div>
+                        </div>
+
+                        <!--submit button-->
+                        <button type="submit" id="submit">
+                            <span>Submit</span>
+                        </button>
+
+                        <!--reset/cancel-->
+                        <button type="reset" class="btn btn-primary" id="reset" style="backgroung:#fa0c28">
+                            <span>Cancel</span>
+                        </button>
+                        <div>
+                            <p>thank you for visiting the page</p>
+                        </div>
+                        <p>For more details: contact us</p>
+                        <p>Look bottom links for others</p>
+                    </form>
+                </center>
+            </section>
+            <footer>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="/disclaimer">Contact</a>
+                        </li>
+                        <li>
+                            <a href="/email">Email US</a>
+                        </li>
+                        <li>
+                            <a href="/download">Career site</a>
+                        </li>
+                        <li>
+                            <a href="/emergency">Emergency</a>
+                        </li>
+                    </ul>
+                </nav>
+            </footer>
+        </article>
+    </body>
+</html>
